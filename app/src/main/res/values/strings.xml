@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DemoXY</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Google Speech-->
+    <string name="text_google_voice">G-voice</string>
+    <string name="text_google_voice_start">Start</string>
+    <string name="text_google_voice_stop">Stop</string>
+
+    <string name="text_google_voice_start_tip">Start Recognition</string>
+    <string name="text_google_voice_stop_tip">Stop Recognition</string>
+
+    <string name="text_google_voice_error">ERROR %s</string>
+
+    <!--Android Volume Setting-->
+    <string name="text_android_volume">Android Volume</string>
+    <string name="text_android_volume_up">Up</string>
+    <string name="text_android_volume_mute">Mute</string>
+    <string name="text_android_volume_down">Down</string>
+
+</resources>
