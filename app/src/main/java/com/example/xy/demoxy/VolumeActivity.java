@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class VolumeActivity extends Activity {
 
 
-    private static final String LOG_TAG = "VolumeActivity";
+    private final String LOG_TAG = getClass().getSimpleName();
 
     private TextView tip;
     private Button buttonUp;

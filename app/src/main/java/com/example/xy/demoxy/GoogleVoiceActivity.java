@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class GoogleVoiceActivity extends Activity {
 
 
-    private static final String LOG_TAG = "GoogleVoiceActivity";
+    private final String LOG_TAG = getClass().getSimpleName();
     private TextView tip;
     private Button buttonStart;
     private Button buttonStop;
