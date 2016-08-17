@@ -16,6 +16,7 @@ import java.util.List;
 public class MainActivity extends Activity {
 
     private final String LOG_TAG = getClass().getSimpleName();
+    private final int iconNumbers = 5;
 
     private GridView gridView;
     private List<HashMap<String, Object>> data_list;
@@ -34,12 +35,14 @@ public class MainActivity extends Activity {
             R.drawable.demo,
             R.drawable.demo,
             R.drawable.demo,
+            R.drawable.demo,
     };
     private String[] iconsName = {
             "A-Volume",
             "B-Click",
             "G-Voice",
             "H-Thread",
+            "Assistant"
     };
     private AdapterView.OnItemClickListener mItemListener = new AdapterView.OnItemClickListener() {
         @Override
@@ -63,7 +66,15 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        init();
         initGridView();
+    }
+
+    private void init() {
+
+//        for (int i=0; i<iconNumbers; i++) {
+//            icons[i] =  R.drawable.demo;
+//        }
     }
 
     private void initGridView() {
@@ -88,8 +99,5 @@ public class MainActivity extends Activity {
         return data_list;
     }
 
-    private void init() {
-
-    }
 
 }
